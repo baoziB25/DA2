@@ -206,7 +206,7 @@ if __name__ == "__main__":
     #     print(reviews)
     #     break
 
-    locations = ["Đà Nẵng", "Thành phố Hồ Chí Minh", "Hải Phòng",  "Nha Trang", "Đà Lạt", "Hạ Long", "Phú Quốc"]
+    locations = ["Hà Nội","Đà Nẵng", "Thành phố Hồ Chí Minh", "Hải Phòng",  "Nha Trang", "Đà Lạt", "Hạ Long", "Phú Quốc"]
     for location in locations:
         print(f"Đang thu thập reviews ở {location}...")
         crawler = GoogleMapsReviewCrawler()
